@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="sea" cx="50%" cy="0%" r="90%">
+      <stop offset="0" stop-color="#3a86d6"/>
+      <stop offset=".35" stop-color="#14427a"/>
+      <stop offset="1" stop-color="#061631"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff6e1"/>
+      <stop offset=".4" stop-color="#ffb877" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ff8c50" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tile"><rect width="64" height="64" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="64" height="64" fill="#01030a"/>
+    <circle cx="14" cy="13" r="1.3" fill="#fff" opacity=".8"/>
+    <circle cx="47" cy="9" r="1" fill="#fff" opacity=".6"/>
+    <circle cx="29" cy="22" r=".9" fill="#fff" opacity=".5"/>
+    <circle cx="55" cy="25" r="1.2" fill="#fff" opacity=".7"/>
+    <circle cx="32" cy="104" r="68" fill="url(#sea)" stroke="#7cc4ff" stroke-width="2.4"/>
+    <ellipse cx="32" cy="36" rx="22" ry="6" fill="url(#sun)"/>
+  </g>
+</svg>
